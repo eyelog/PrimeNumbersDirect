@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Простые числа</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h4>Простые числа</h4>
+    </header>
+
+    <div class="MainContainer">
+        <div class="ManagerContainer">
+            <!-- A basic input -->
+            <form name="manageForm" action="javascript:applyNumbers()">
+                <label>
+                    <input id="numbers" type="text" name="input" placeholder="Количество элементов" />
+                    <input id="direction" type="text" name="input" placeholder="Размерность" /> <br>
+                </label> <br>
+                <input type="submit" value="submit" />
+            </form>
+        </div>
+
+        <div id="contentContainer" class="ContentContainer">
+
+        </div>
+    </div>
+<script src="js/main.js"></script>
+</body>
+</html>
